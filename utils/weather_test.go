@@ -16,8 +16,8 @@ func getMapInterface(weather []byte) map[string]interface{} {
 	return dat
 }
 
-//float64 equality esitimation
-var EPSILON float64 = 0.00000001
+// EPSILON :float64 equality esitimation
+var EPSILON = 0.00000001
 
 func floatEquals(a, b float64) bool {
 	if (a-b) < EPSILON && (b-a) < EPSILON {
