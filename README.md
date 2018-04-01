@@ -15,11 +15,8 @@ you just need to install and configure GO.
 Go run server.go
 ```
 
-### UnitTests Are present to test and debug
+UnitTests Are present to test and debug
 
-```
-Go run server.go
-```
 
 ### Author :
 Laurent Loukopoulos
