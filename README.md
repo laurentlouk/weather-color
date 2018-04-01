@@ -10,7 +10,7 @@ to the city that has been entered in url.
 - Blue = Humidity => 0% = 0 / 50%=123 / +123 if it's raining
 - Green = 0 polution = 255 / a lot of pollution 255
 
-pollution according to visinility (PM2.5 and PM10 particles)
+pollution according to visibility (PM2.5 and PM10 particles)
 see ref. (http://www.epa.vic.gov.au/your-environment/air/air-pollution/visibility-reduction)
 
 
