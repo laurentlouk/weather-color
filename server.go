@@ -41,7 +41,7 @@ var mux map[string]func(http.ResponseWriter, *http.Request)
 
 func main() {
 	server := http.Server{
-		Addr:    ":5000",
+		Addr:    ":9090",
 		Handler: &myHandler{},
 	}
 	log.Println("Server started")
