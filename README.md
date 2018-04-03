@@ -25,6 +25,15 @@ you just need to install and configure GO.
 Go run server.go (Launch to localhost:9090)
 ```
 
+### Utility Links :
+
+```
+http://localhost:9090/ -> home
+http://localhost:9090/Paris -> result
+http://localhost:9090/Mykonos -> result
+http://localhost:9090/DontExist -> error message
+```
+
 UnitTests Are present to test and debug
 
 ### Author :
