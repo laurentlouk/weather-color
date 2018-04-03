@@ -34,6 +34,7 @@ type WeatherResult struct {
 }
 
 func explain(w http.ResponseWriter, r *http.Request) {
+	defer r.Body.Close()
 	io.WriteString(w, "Please enter the name of the city in the url (ex: Paris)")
 }
 
@@ -55,6 +56,7 @@ func main() {
 type myHandler struct{}
 
 func (*myHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
+	defer r.Body.Close()
 	if h, ok := mux[r.URL.String()]; ok {
 		h(w, r)
 		return
