@@ -16,6 +16,12 @@ see ref. (http://www.epa.vic.gov.au/your-environment/air/air-pollution/visibilit
 
 ### Prerequisites : 
 
+Using :
+
+```
+https://github.com/golang/lint
+```
+
 This Server don't use any external Package,
 you just need to install and configure GO.
 
